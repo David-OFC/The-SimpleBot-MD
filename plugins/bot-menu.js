@@ -28,22 +28,19 @@ let fechaMoment, formatDate, nombreLugar, ciudad = null; const phoneNumber = '+'
 //FAKES
 let a = {'key': {'participants': '0@s.whatsapp.net', 'fromMe': false, 'id': '3B64558B07848BD81108C1D14712018E'}, 'message': {'locationMessage': {'name': `${user}`, 'jpegThumbnail': await (await fetch(pp)).buffer(), 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${wm},;;;\nFN:${wm},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'}
 const ftrol = { key : { remoteJid: 'status@broadcast', participant : '0@s.whatsapp.net' }, message: { orderMessage: { itemCount : 2023, status: 1, surface : 1, message: `${user}!`, orderTitle: `▮Menu ▸`, sellerJid: '0@s.whatsapp.net' }}}
-const fload = { key : { message: `CuriosityBot-MD 🍧` + `\nAzami`, thumbnail: await (await fetch(pp)).buffer(), sellerJid: '0@s.whatsapp.net' }}
+const fload = { key : { message: `𝑻𝒉𝒆-𝑺𝒊𝒎𝒑𝒍𝒆𝑩𝒐𝒕-𝑴𝑫` + `\nAzami`, thumbnail: await (await fetch(pp)).buffer(), sellerJid: '0@s.whatsapp.net' }}
 
 m.react('🏷️')
   
-let menu = `*👋 Hola, ${user}*
+let menu = `> *👋 Hola, ${user}*
 
-_${formatDate}_
+> _${formatDate}_
 
-*País*: ${nombreLugar} 
-*Ciudad*: ${ciudad}
+> !allmenu
+> _(Para ver el menú completo)_
 
-!allmenu
-_(Para ver el menú completo)_
-
-!menu2
-_(Para ver el menu audios)_`
+> !menu2
+> _(Para ver el menu audios)_`
 
 await conn.reply(m.chat, menu, a, { contextInfo: { externalAdReply: {title: '👋 ¡Hola!', body: saludo, sourceUrl: ig, thumbnail: await (await fetch(pp)).buffer() }}})
 

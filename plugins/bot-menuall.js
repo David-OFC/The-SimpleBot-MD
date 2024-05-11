@@ -22,15 +22,15 @@ let tags = {
 'imagenes': 'Imagenes 🖼️',
 }
 const defaultMenu = {
-before: `> ╭─❒ 「 *Usuario* 🎗️ 」
-> │○ *Cliente:* %name
-> │○ *Limite:* %diamond
-> │○ *Nivel:* %level
-> │○ *Rango:* %role
-> │○ *Exp:* %exp
+before: `> ╭─❒ 「 *Usuario*  」
+> │ *Cliente:* %name
+> │ *Limite:* %diamond
+> │ *Nivel:* %level
+> │ *Rango:* %role
+> │ *Exp:* %exp
 > │
 > ├─❒ 「 *InfoBot* 🚩 」
-> │○ *Creador:* Azami / Zam
+> │○ *Creador:* David-OFC
 > │○ *Tiempo Activo:* %muptime
 > │○ *Registrados:* %rtotalreg De %totalreg Usuarios
 > │

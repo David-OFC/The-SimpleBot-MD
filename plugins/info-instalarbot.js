@@ -1,13 +1,12 @@
 var handler  = async (m, { conn }) => {
 
-let texto = `🚩 *Instalación de CuriosityBot*
+let texto = `🚩 *Instalación del bot*
 
 *Requisitos para la instalación*
-⬡ Dudas: wa.me/5217294888993
-⬡ Tutoríal: https://youtu.be/qRb9ElGT8mM
+⬡ Dudas: wa.me/595975726335
 ⬡ 1 GB de almacenamiento
 ⬡ Termux: https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file
-⬡ GitHub: https://github.com/AzamiJs/CuriosityBot-MD
+⬡ GitHub: https://github.com/David-OFC/The-SimpleBot-MD
 ⬡ Un whatsapp inmune (secundario)
 ⬡ Un número 
 ⬡ Dispositivo o una PC para escanear
@@ -20,7 +19,7 @@ apt-get update -y && apt-get upgrade -y
 
 pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 
-git clone https://github.com/AzamiJs/CuriosityBot-MD && cd CuriosityBot-MD && yarn install && npm install 
+git clone https://github.com/David-OFC/The-SimpleBot-MD && cd The-SimpleBot-MD && yarn install && npm install 
 
 ls
 
@@ -43,7 +42,7 @@ m.reply('apt-get update -y && apt-get upgrade -y')
 await delay(1000 * 1)
 m.reply('pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn')
 await delay(1000 * 1)
-m.reply('git clone https://github.com/AzamiJs/CuriosityBot-MD && cd CuriosityBot-MD && yarn install && npm install ')
+m.reply('git clone https://github.com/David-OFC/The-SimpleBot-MD && cd The-SimpleBot-MD && yarn install && npm install ')
 await delay(1000 * 1)
 m.reply('ls')
 await delay(1000 * 1)
@@ -54,7 +53,7 @@ conn.reply(m.chat, `🚩 *Instalación automática*\n\nTutoríal: https://youtu.
 await delay(2000 * 1)
 m.reply('termux-setup-storage')
 await delay(1000 * 1)
-m.reply('apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/AzamiJs/CuriosityBot-MD/master/curiosity.sh | bash')
+m.reply('apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/David-OFC/The-SimpleBot-MD/master/install.sh | bash')
 }
 
 if (/^vortexus$/i.test(m.text) ) {
