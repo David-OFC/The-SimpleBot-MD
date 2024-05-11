@@ -1,5 +1,5 @@
 {
-"name": "CuriosityBot-MD",
+"name": "The-SimpleBot-MD",
 "version": "1.0.0", 
 "description": "WhatsApp Bot - Node.Js",
 "main": "index.js",
@@ -17,16 +17,16 @@
 "test": "node test.js",
 "test2": "nodemon index.js" },
     
-"homepage": "https://github.com/AzamiJs/CuriosityBot-MD",
+"homepage": "https://github.com/David-OFC/The-SimpleBot-MD",
 "author": {
-"name": "AzamiJs" }, 
+"name": "David-OFC" }, 
     
 "repository": {
 "type": "git",
- "url": "git+https://github.com/AzamiJs/CuriosityBot-MD.git" },
+ "url": "git+https://github.com/David-OFC/The-SimpleBot-MD.git" },
  
 "bugs": {
-"url": "https://github.com/AzamiJs/CuriosityBot-MD/issues" },
+"url": "https://github.com/David-OFC/The-SimpleBot-MD/issues" },
 "license": "GPL-3.0-or-later",
 "dependencies": {
 "@whiskeysockets/baileys": "npm:@whiskeysockets/baileys",

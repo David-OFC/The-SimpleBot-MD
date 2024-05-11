@@ -491,3 +491,4 @@ await purgeOldFiles()
 console.log(chalk.cyanBright(`\nAUTO_PURGE_OLDFILES │ BASURA ELIMINADA\n`))
 }, 1000 * 60 * 60)
 _quickTest().catch(console.error)
+
